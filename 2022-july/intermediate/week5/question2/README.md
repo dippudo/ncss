@@ -1,0 +1,51 @@
+# Question | "Secret Messages"
+
+Someone's written a secret message for you! It's hidden as the first word of each sentence that contains the secret password.
+
+You've got a problem though... you can't remember what the password was!
+
+Write a program to read ``book.txt``, ask the user what the password is, and print out just the first word of all sentences that contain that password, ignoring case. Include all sentences containing the substring, even if it forms part of a word. For instance, if the password is ``sam``, also include the sentence: ``This is the same.``
+
+The ``book.txt`` file has one sentence per line, and looks like this:
+
+```
+The room was dark and dreary.
+Beware what lies beneath.
+She could barely make out the back wall.
+Treasure was piled in the nearest corner, in the dark shadows.
+Is this safe, she thought to herself, accidentally stubbing her toe on the dark carpet.
+Mister Lieth said it would be cold.
+Suddenly, a gust of wind rushed through the door from behind her.
+In the wind, the candle struggled, plunging the room into semidarkness.
+The thought of the already darkened room having still less light did not appeal to her.
+Shivering, she closed the door, wishing she had brought a scarf.
+Well and good, she had to focus before it was dark outside.
+Black and grey shadows were all she had to believe in.
+```
+
+Your program should work like this:
+
+```
+Password: dark
+the
+treasure
+is
+in
+the
+well
+```
+
+Here is another example, with a different password:
+
+```
+Password: lie
+beware
+mister
+black
+```
+
+If you use a string that's not part of any line the message will be blank:
+
+```
+Password: nous
+```
