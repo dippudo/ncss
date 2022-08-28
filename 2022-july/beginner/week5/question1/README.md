@@ -1,4 +1,4 @@
-# Question | ""
+# Question | "Class Act!"
 
 In the Olympics, [Taekwando](https://en.wikipedia.org/wiki/Taekwondo_weight_classes#Olympic_weight_classes) competitors are broken up into classes by weight. This is the table for female competitors:
 
