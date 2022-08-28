@@ -1,4 +1,4 @@
-# Question | ""
+# Question | "Pinwheels"
 
 Let’s draw a colourful [pinwheel](https://en.wikipedia.org/wiki/Pinwheel_(toy)).
 
